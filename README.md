@@ -28,6 +28,7 @@ mkdir -p ~/.local; mkdir -p ~/.local/bin
 curl https://raw.githubusercontent.com/VBPROGER/auto-bash2binary/main/src/main.sh>~/.local/bin/auto-bash2binary
 chmod u+x ~/.local/bin/auto-bash2binary
 ```
+<br><br>
 # Running
 ## Running on Windows
 We are sorry, this version isn't
@@ -43,3 +44,4 @@ Run this in terminal:
 ```bash
 auto-bash2binary <FILE NAME TO CONVERT>
 ```
+<br><br>
