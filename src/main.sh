@@ -1,5 +1,5 @@
 #!/bin/bash
-clear || cls || : > /dev/null
+#clear || cls || : > /dev/null
 
 NAME="auto-bash2binary"
 VERSION="1.0.0"
