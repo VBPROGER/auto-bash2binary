@@ -1,5 +1,4 @@
 #!/bin/bash
-#clear || cls || : > /dev/null
 
 NAME="auto-bash2binary"
 VERSION="1.0.0"
@@ -8,6 +7,7 @@ LOG(){
 printf "$NAME v$VERSION: $1\n"
 }
 build(){
+clear || cls || : > /dev/null
 LOG "Building \"$1\"..."
 shc -f $1 > /dev/null
 LOG "Moving..."
